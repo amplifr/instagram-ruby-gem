@@ -43,7 +43,6 @@ eos
   s.platform = Gem::Platform::RUBY
   s.require_paths = ['lib']
   s.required_rubygems_version = Gem::Requirement.new('>= 1.3.6') if s.respond_to? :required_rubygems_version=
-  s.rubyforge_project = s.name
   s.summary = %q{Ruby wrapper for the Instagram API}
   s.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.version = Instagram::VERSION.dup
